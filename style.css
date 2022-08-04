@@ -48,7 +48,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url("assets/imgs/fond.png");
+  background-image: url("assets/imgs/fond.jpg");
   background-size: cover;
   width: 100%;
 }
