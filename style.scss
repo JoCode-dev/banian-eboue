@@ -347,6 +347,45 @@ footer {
 	}
 }
 
+.valid-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: #fff;
+	height: 100vh;
+	flex-direction: column;
+
+	& img {
+		width: 25%;
+	}
+
+	h1 {
+		font-family: $leagueSpartanRegular;
+		font-size: 8vh;
+		color: #ad7474;
+	}
+
+	a {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-decoration: none;
+		width: 30%;
+		height: 10%;
+		background-color: #ad7474;
+		border-radius: 2vh;
+		margin: 1vh auto;
+		color: #fff;
+		font-family: $leagueSpartanRegular;
+		font-size: 4vh;
+	}
+
+	p {
+		font-size: 3vh;
+		font-family: $leagueSpartanRegular;
+	}
+}
 
 /* 320px — 480px: Mobile devices
 481px — 768px: iPads, Tablets
@@ -355,7 +394,10 @@ footer {
 1201px and more —  Extra large screens, TV */
 
 /* Mobile devices */
-@media /* only screen and */ (min-width : 220px) and (max-width : 480px) {
+@media
+
+/* only screen and */
+(min-width : 220px) and (max-width : 480px) {
 	.main-container {
 		width: 100%;
 		height: 100vh;
@@ -660,10 +702,54 @@ footer {
 			}
 		}
 	}
+
+	.valid-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		background-color: #fff;
+		height: 100vh;
+		flex-direction: column;
+
+		& img {
+			width: 35%;
+		}
+
+		h1 {
+			font-family: $leagueSpartanRegular;
+			font-size: 3.5vh;
+			letter-spacing: -0.2vh;
+			color: #ad7474;
+		}
+
+		a {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-decoration: none;
+			width: 90%;
+			height: 5%;
+			background-color: #ad7474;
+			border-radius: 2vh;
+			margin: 0.2vh auto;
+			color: #fff;
+			font-family: $leagueSpartanRegular;
+			font-size: 3vh;
+		}
+
+		p {
+			font-size: 2vh;
+			font-family: $leagueSpartanRegular;
+		}
+	}
 }
 
 /* iPads, Tablets */
-@media /* only screen and */ (min-width : 481px) and (max-width : 768px) {
+@media
+
+/* only screen and */
+(min-width : 481px) and (max-width : 768px) {
 	.main-container {
 		width: 100%;
 		height: 100vh;
@@ -965,10 +1051,53 @@ footer {
 			}
 		}
 	}
+
+	.valid-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		background-color: #fff;
+		height: 100vh;
+		flex-direction: column;
+
+		& img {
+			width: 35%;
+		}
+
+		h1 {
+			font-family: $leagueSpartanRegular;
+			font-size: 5vh;
+			color: #ad7474;
+		}
+
+		a {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-decoration: none;
+			width: 60%;
+			height: 7%;
+			background-color: #ad7474;
+			border-radius: 2vh;
+			margin: 1vh auto;
+			color: #fff;
+			font-family: $leagueSpartanRegular;
+			font-size: 4vh;
+		}
+
+		p {
+			font-size: 3vh;
+			font-family: $leagueSpartanRegular;
+		}
+	}
 }
 
 /* Small screens, laptops */
-@media /* only screen and */ (min-width : 769px) and (max-width : 1024px) {
+@media
+
+/* only screen and */
+(min-width : 769px) and (max-width : 1024px) {
 	.main-container {
 		width: 100%;
 		height: 100vh;
@@ -1198,7 +1327,10 @@ footer {
 }
 
 /* Desktops, large screens */
-@media /* only screen and */ (min-width : 1025px) and (max-width : 1200px) {
+@media
+
+/* only screen and */
+(min-width : 1025px) and (max-width : 1200px) {
 	.main-container {
 		& .logo-container {
 			width: 70%;
@@ -1297,7 +1429,10 @@ footer {
 }
 
 /* Extra large screens, TV */
-@media /* only screen and */ (min-width : 1201px) {
+@media
+
+/* only screen and */
+(min-width : 1201px) {
 	.main-container {
 		width: 100%;
 		height: 100vh;

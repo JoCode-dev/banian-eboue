@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banian Eboue</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/imgs/icon.ico" />
+  </head>
+</head>
+<body>
+    <div class="valid-container">
+        <img src="./assets/imgs/check.png" alt="valid">
+        <h1>Merci pour votre réservation</h1>
+        <a href="index.html">Retourner vers le site</a>
+        <br>
+        <p>Retour automatique dans <b id="secB">5s</b></p>
+    </div>
+
+    <script>
+        (
+            ()=>{
+                let secB = document.getElementById('secB');
+                let i = 5
+                setInterval(() => {
+                   if(i > 0){
+                    i--;
+                    console.log(i);
+                    secB.innerHTML = `${i}s`
+                   } else {
+                    console.log("End");
+                    location.href="banianeboue.space"
+                   };
+                }, 1000);
+               
+            }
+        )()
+    </script>
+</body>
+</html>
