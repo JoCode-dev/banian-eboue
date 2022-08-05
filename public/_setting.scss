@@ -1,0 +1,55 @@
+// Fonts
+@font-face {
+    font-family: "LeagueSpartan-Black";
+    src: url(./assets/fonts/LeagueSpartan-Black.ttf);
+}
+
+@font-face {
+    font-family: "LeagueSpartan-Bold";
+    src: url(./assets/fonts/LeagueSpartan-Bold.ttf);
+}
+
+@font-face {
+    font-family: "LeagueSpartan-ExtraBold";
+    src: url(./assets/fonts/LeagueSpartan-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "LeagueSpartan-ExtraLight";
+    src: url(./assets/fonts/LeagueSpartan-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: "LeagueSpartan-Light";
+    src: url(./assets/fonts/LeagueSpartan-Light.ttf);
+}
+
+@font-face {
+    font-family: "LeagueSpartan-Medium";
+    src: url(./assets/fonts/LeagueSpartan-Medium.ttf);
+}
+
+@font-face {
+    font-family: "LeagueSpartan-Regular";
+    src: url(./assets/fonts/LeagueSpartan-Regular.ttf);
+}
+
+@font-face {
+    font-family: "LeagueSpartan-SemiBold";
+    src: url(./assets/fonts/LeagueSpartan-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "LeagueSpartan-Thin";
+    src: url(./assets/fonts/LeagueSpartan-Thin.ttf);
+}
+
+$leagueSpartanBlack: "LeagueSpartan-Black";
+$leagueSpartanBold: "LeagueSpartan-Bold";
+$leagueSpartanExtraBold: "LeagueSpartan-ExtraBold";
+$leagueSpartanExtraLight: "LeagueSpartan-ExtraLight";
+$leagueSpartanLight: "LeagueSpartan-Light";
+$leagueSpartanMedium: "LeagueSpartan-Medium";
+$leagueSpartanRegular: "LeagueSpartan-Regular";
+$leagueSpartanSemiBold: "LeagueSpartan-SemiBold";
+$leagueSpartanThin: "LeagueSpartan-Thin";
