@@ -333,6 +333,42 @@ footer h3 {
   text-shadow: 2px 0px 9px rgba(0, 0, 0, 0.87);
 }
 
+.valid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  height: 100vh;
+  flex-direction: column;
+}
+.valid-container img {
+  width: 25%;
+}
+.valid-container h1 {
+  font-family: "LeagueSpartan-Regular";
+  font-size: 8vh;
+  color: #ad7474;
+}
+.valid-container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 30%;
+  height: 10%;
+  background-color: #ad7474;
+  border-radius: 2vh;
+  margin: 1vh auto;
+  color: #fff;
+  font-family: "LeagueSpartan-Regular";
+  font-size: 4vh;
+}
+.valid-container p {
+  font-size: 3vh;
+  font-family: "LeagueSpartan-Regular";
+}
+
 /* 320px — 480px: Mobile devices
 481px — 768px: iPads, Tablets
 769px — 1024px: Small screens, laptops
@@ -594,6 +630,42 @@ footer h3 {
     background-color: #ad7474;
     color: #fff;
   }
+  .valid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    height: 100vh;
+    flex-direction: column;
+  }
+  .valid-container img {
+    width: 35%;
+  }
+  .valid-container h1 {
+    font-family: "LeagueSpartan-Regular";
+    font-size: 3.5vh;
+    letter-spacing: -0.2vh;
+    color: #ad7474;
+  }
+  .valid-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 90%;
+    height: 5%;
+    background-color: #ad7474;
+    border-radius: 2vh;
+    margin: 0.2vh auto;
+    color: #fff;
+    font-family: "LeagueSpartan-Regular";
+    font-size: 3vh;
+  }
+  .valid-container p {
+    font-size: 2vh;
+    font-family: "LeagueSpartan-Regular";
+  }
 }
 /* iPads, Tablets */
 @media (min-width: 481px) and (max-width: 768px) {
@@ -847,6 +919,41 @@ footer h3 {
   .form-container .form-form .form-group .btn-submit:hover {
     background-color: #ad7474;
     color: #fff;
+  }
+  .valid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    height: 100vh;
+    flex-direction: column;
+  }
+  .valid-container img {
+    width: 35%;
+  }
+  .valid-container h1 {
+    font-family: "LeagueSpartan-Regular";
+    font-size: 5vh;
+    color: #ad7474;
+  }
+  .valid-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 60%;
+    height: 7%;
+    background-color: #ad7474;
+    border-radius: 2vh;
+    margin: 1vh auto;
+    color: #fff;
+    font-family: "LeagueSpartan-Regular";
+    font-size: 4vh;
+  }
+  .valid-container p {
+    font-size: 3vh;
+    font-family: "LeagueSpartan-Regular";
   }
 }
 /* Small screens, laptops */

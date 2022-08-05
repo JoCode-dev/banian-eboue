@@ -19,6 +19,10 @@ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/public/index.html");
 });
 
+app.get("/valid", (req, res) => {
+  res.sendFile(__dirname + "/public/valid.html");
+});
+
 app.post("/", async (req, res) => {
   console.log(req.body);
 
@@ -69,7 +73,7 @@ app.post("/", async (req, res) => {
     } else {
       console.log("Email Sent: " + info.response);
     }
-    res.redirect("/");
+    res.redirect("/valid");
   });
 });
 
